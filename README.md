@@ -22,8 +22,10 @@ italian_universities_system/
   - crawling/
     - agent.py – Crawling agent logic
     - prompt.py – Crawling prompt
-  - university_discovery/ - agent.py – Discovery agent logic - prompt.py – Discovery prompt
-    output/
+  - university_discovery/
+    - agent.py – Discovery agent logic
+    - prompt.py – Discovery prompt
+- output/
   - One JSON file per university
 
 ## How to Run
