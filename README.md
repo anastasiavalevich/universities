@@ -35,12 +35,10 @@ italian_universities_system/
    GOOGLE_API_KEY=your_api_key_here
    GOOGLE_GENAI_USE_VERTEXAI=FALSE
 
-3. Run the coordinator agent:
+3. Start the ADK web interface:
 
-```python
-from italian_universities_system.agent import root_agent
-
-result = root_agent.run()
+```
+adk web
 ```
 
 4. Save the output manually or extend the script to write one JSON file per university.
