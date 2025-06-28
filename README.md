@@ -31,11 +31,17 @@ italian_universities_system/
 ## How to Run
 
 1. Install dependencies:
-   pip install -r requirements.txt
+
+```
+pip install -r requirements.txt
+```
 
 2. Create a `.env` file in the project root with your API key:
-   GOOGLE_API_KEY=your_api_key_here
-   GOOGLE_GENAI_USE_VERTEXAI=FALSE
+
+```
+GOOGLE_API_KEY=your_api_key_here
+GOOGLE_GENAI_USE_VERTEXAI=FALSE
+```
 
 3. Start the ADK web interface:
 
