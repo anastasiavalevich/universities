@@ -48,22 +48,25 @@ result = root_agent.run()
 ## Example Output
 
 Each JSON file contains something like this:
+
+```
 {
-"name": "Università degli Studi di Bologna",
-"url": "https://www.unibo.it",
-"pages": [
-{
-"title": "Admissions for International Students",
-"url": "https://www.unibo.it/en/admissions",
-"content_markdown": "## Welcome to Admissions\nHere you’ll find information..."
+  "name": "Università degli Studi di Bologna",
+  "url": "https://www.unibo.it",
+  "pages": [
+    {
+      "title": "Admissions for International Students",
+      "url": "https://www.unibo.it/en/admissions",
+      "content_markdown": "## Welcome to Admissions\nHere you’ll find information..."
+    }
+  ],
+  "summary": "The university offers a wide range of international programs...",
+  "metadata": {
+    "domain": "unibo.it",
+    "pages_scraped": 8
+  }
 }
-],
-"summary": "The university offers a wide range of international programs...",
-"metadata": {
-"domain": "unibo.it",
-"pages_scraped": 8
-}
-}
+```
 
 ## Dependencies
 
